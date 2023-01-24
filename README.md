@@ -1,56 +1,62 @@
-                              Week1_Java_Assignment_Problem Statement1
+# Week1_Java_Assignment_Problem Statement1
 
-Problem:
+## Problem:
 The user can input or store a positive Integer stored as a variable called num. You need to calculate and print the Factorial of this number. 
 The Factorial of a positive integer refers to the product of all number in the range from 1 to num
 
-Example:  Factorial(4)  is 1*2*3*4 = 24
+Example:  Factorial(4)  is 1 Multiplied by 2 Multiplied by 3 Multiplied by 4 = 24
 
-Input Format:
-Input the number you wish to find the factorial 
+- Input Format:
+  Input the number you wish to find the factorial 
 
-Output Format:
-Output a single value showing the factorial of the inputted number.
+- Output Format:
+  Output a single value showing the factorial of the inputted number.
 
-Constraints:
-The value inputted is
-1.	Positive
-2.	Less than 10 
+- Constraints:
+  The value inputted is
+    1.	Positive
+    2.	Less than 10 
 
------------------------------------------------Steps to Solve the Problem--------------------------------------------------------
+# ------------Steps to Solve the Problem-------------
 
 
-Step1: Make sure you have Required Tools:
+## Step1: Make sure you have Required Tools:
 
               Java 17 version installed with JAVA_HOME Path Variable
               
               VS Code IDE with Required Plugins for Java, GIT. 
-              
-              MY Sql 
-              
+                                        
               Git
               
-Step2: Accessing GITHUB Classroom and submiting Assignment
+## Step2: Accessing GITHUB Classroom and submiting Assignment
 
-              Get the Link for GITHUB Classroom
+      Get the Link for GITHUB Classroom.
               
-              click and Authorize from your GITHUB account
+      Click and Authorize from your GITHUB account.
               
-              Clone the Repository / open through VSCODE IDE 
+      Clone the Repository / open through VSCODE IDE. 
               
-              Open Factorial --> src --> main --> Factorial.java 
+      Open Factorial --> src --> main --> Factorial.java. 
               
-              Solve the Problem Statements through code
+      Solve the Problem Statements through code as detailed in Step 3 below.
               
-              commit the changes to the repositories
+      Commit the changes to the repositories, 
+      labelling each commit numerically (Commit1, Commit2, etc.).
               
-Step3: Solving the Problem
+      Each commit will be tested automatically against the relevant testcases, 
+      so you may need to submit several commits as you refine your solution. 
+              
+      Once you are finished with the assignment (either all test cases passed or not), 
+      make sure to lable this commit as "final commit" (this may mean a previous commit passing and 
+      you making a slight edit to the latter in order to mark the next commit as being final). 
+              
+## Step3: Solving the Problem
 
-              Read the Problem Statement carefully
+          Read the Problem Statement carefully
               
-              Go to respective files to complete assignment
+          Go to respective files to complete assignment
               
-              Please follow below pattern in the files where you can complete the code
+          Please follow below pattern in the files where you can complete the code
               
                       /*
                       PLEASE INSERT YOUR CODE STRICTLY BETWEEN BELOW COMMENTED LINES
@@ -83,5 +89,6 @@ Step3: Solving the Problem
 
 
 
-     Note: Every Assignment is being tested with Automation Technique so, Please do follow points mentioned in comments of java.
+     Note: Every Assignment is being tested with Automation Technique.
+     So Please do follow the points mentioned in comments of Java Code.
 
