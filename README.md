@@ -5,7 +5,7 @@ For this assessment, you will write a Java program that calculates and prints th
 
 The factorial of a positive integer `num` is the product of all numbers in the range from 1 to `num`.
 
-For example: `Factorial(4) = 1 * 2 * 3 * 4`, giving the result of 24.
+For example: `Factorial(4) = 1 * 2 * 3 * 4`, which gives the result of 24.
 
 - **Input Format:** The user can input a value to be used in the calculation.
 - **Output Format:** The program will output a single value showing the factorial of the number input by the user.
@@ -79,13 +79,13 @@ All new code should be added **inside** these placeholders.
 ### Step 4: Submit Your Work
 
 1. Code solutions to the problem statements and run the code in the local IDE to check it as you work.
-2. Incrementally commit the changes to the repository, labelling each commit numerically (Commit1, Commit2, etc.).
+2. Incrementally commit the changes to the repository, labeling each commit numerically (Commit1, Commit2, etc.).
    - The number of commits can be as high as necessary: commit as frequently as you wish.
 3. Each commit will be tested automatically against the relevant test cases. Open the repository in GitHub to view the test results.
    - A checkmark indicates that a test passed.
    - An X indicates that the test failed.
 4. If any test fails, return to the local code to make corrections or add more code, then recommit the changes.
-5. When the code passes all tests, commit one more time, labelling the last commit as "final commit."
+5. When the code passes all tests, commit one more time, labeling the last commit as "final commit."
    - You may need to make a minor edit to the code, such as adding a comment, so that Git knows the code is different.
 6. Copy the URL for the GitHub repository and submit it to the assessment page in Engage.
 7. Your instructor may also ask you to submit a pull request on the repository.
