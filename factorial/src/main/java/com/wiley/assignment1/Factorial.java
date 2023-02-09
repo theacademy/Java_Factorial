@@ -45,7 +45,7 @@ public class Factorial {
 	 private void calculateFactorial(int num) {
 		
 		  /*
-		  Use this method to calculate and output the factorial of the number input by the user.
+		  Use this method to calculate the factorial of the number input by the user.
 		  
 		  - All code should be inside the placeholders below.
 		*/
