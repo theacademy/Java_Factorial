@@ -22,13 +22,13 @@ Update only the existing **Factorial.java** class in the starter code provided. 
 
 Update the existing `isInputNumberValid` method to accept a number from the user and test whether the number is valid.
 
+- For prompts and other output to the console, use `this.printStream.print()` and NOT `System.out.println()`.
 - Write code to accept a number from the user and store the value in an instance variable `num`. 
 
   - Use an instance variable `scanner` to accept the input from the user.
 - If the input value is valid, return the number input by the user (NOT the factorial of the number).
 - In case of invalid input, print the following message to the console:
   - "Invalid entry. Please enter an integer between 1 and 10, inclusive."
-    - To print this message to the console, use `this.printStream.print()` and NOT `System.out.println()`.
   - Return -1
 
 Update the existing `private void calculateFactorial` method to calculate and output the factorial of the number input by the user.
