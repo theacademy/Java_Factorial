@@ -1,4 +1,4 @@
-# Week1_Java_Assignment_Problem Statement1
+# Java_Factorial_Problem Statement1
 
 ## Problem:
 The user can input or store a positive Integer stored as a variable called num. You need to calculate and print the Factorial of this number. 
@@ -22,13 +22,13 @@ Example:  Factorial(4)  is 1 Multiplied by 2 Multiplied by 3 Multiplied by 4 = 2
 
 ## Step1: Make sure you have Required Tools:
 
-              Java 17 version installed with JAVA_HOME Path Variable
+              Java 11 version installed with JAVA_HOME Path Variable
               
               VS Code IDE with Required Plugins for Java, GIT. 
                                         
               Git
               
-## Step2: Accessing GITHUB Classroom and submiting Assignment
+## Step2: Accessing GITHUB Classroom and submitting Assignment
 
       Get the Link for GITHUB Classroom.
               
@@ -43,11 +43,11 @@ Example:  Factorial(4)  is 1 Multiplied by 2 Multiplied by 3 Multiplied by 4 = 2
       Commit the changes to the repositories, 
       labelling each commit numerically (Commit1, Commit2, etc.).
               
-      Each commit will be tested automatically against the relevant testcases, 
+      Each commit will be tested automatically against the relevant test cases, 
       so you may need to submit several commits as you refine your solution. 
               
       Once you are finished with the assignment (either all test cases passed or not), 
-      make sure to lable this commit as "final commit" (this may mean a previous commit passing and 
+      make sure to label this commit as "final commit" (this may mean a previous commit passing and 
       you making a slight edit to the latter in order to mark the next commit as being final). 
               
 ## Step3: Solving the Problem
