@@ -20,9 +20,10 @@ For example: `Factorial(4) = 1 * 2 * 3 * 4`, which gives the result of 24.
 
 Update only the existing **Factorial.java** class in the starter code provided. Do not change the code in any other file provided.
 
+- For prompts and other output to the console, use `this.printStream.print()` and NOT `System.out.println()`.
+
 Update the existing `isInputNumberValid` method to accept a number from the user and test whether the number is valid.
 
-- For prompts and other output to the console, use `this.printStream.print()` and NOT `System.out.println()`.
 - Write code to accept a number from the user and store the value in an instance variable `num`. 
 
   - Use an instance variable `scanner` to accept the input from the user.
