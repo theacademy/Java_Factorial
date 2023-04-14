@@ -4,6 +4,12 @@ import java.io.InputStream;
 import java.io.PrintStream;
 import java.util.Scanner;
 
+package com.wiley.assignment1;
+
+import java.io.InputStream;
+import java.io.PrintStream;
+import java.util.Scanner;
+
 public class Factorial {
 	
 	 private Scanner scanner;
@@ -18,29 +24,19 @@ public class Factorial {
 	 
 	 public int isInputNumberValid()  {
 		 
-		//1. Write the Java Code to accept the valid number from the user and store in an instance variable "num".
-		//2. Use the Instance variable "scanner" to accept the input from the user.
-		//3. In case of valid input, return back the number.
-		//4. To print on console, use this.printStream.print() and NOT the System.out.println()
-		//5. In case of invalid input, print on console exactly as below :- 
-		//   "Please Enter valid Input as number between 1 and 10 only, both inclusive".
-		//   and return back -1
-		 
-			 /*
-			PLEASE INSERT YOUR CODE STRICTLY BETWEEN BELOW COMMENTED LINES
-			YOUR CODE STARTS HERE
-			YOUR CODE ENDS HERE
-			AS TEST CASES ARE EXECUTED USING AUTOMATION TECHNIQUE, REQUEST TO
-			STRICTLY FOLLOW BELOW MENTIONED RULES
-				1. THE REST OF THE CODE PROVIDED TO YOU SHOULD BE KEPT STRICTLY UNTOUCHED.
-				2. YOUR OWN CODE WOULD COME ONLY INSIDE ABOVE-MENTIONED PAIR OF COMMENTS.
-				3. THE CLASS NAMES, INTERFACE NAMES, METHOD SIGNATURES AND ATTRIBUTE NAMES SHOULD
-   					NOT BE ALTERED OR MODIFIED AND KEPT STRICTLY UNTOUCHED.
-				4. PLEASE FOLLOW STANDARD JAVA NAMING CONVENTIONS FOR THE PIECE OF CODE YOU
-   					ARE GOING TO PROVIDE INSIDE THE BELOW-MENTIONED PAIR OF COMMENTS.
-					*/
-
- 
+		/*
+		- Update this method to accept a number from the user and store the value in an instance variable `num`. 
+			- Use an instance variable `scanner` to accept the input from the user.
+		
+		- If the input value is valid, return the number input by the user (NOT the factorial of the number).
+		
+		- In case of invalid input:
+			- Print the following message to the console: "Invalid entry. Please enter an integer between 1 and 10, inclusive."
+			    - Use `this.printStream.print()` and NOT `System.out.println()` to print to the console.
+			- Return -1
+			
+		- All code should be inside the placeholders below.
+		*/
 
 		//YOUR CODE STARTS HERE
 
@@ -54,22 +50,13 @@ public class Factorial {
 	 
 	 private void calculateFactorial(int num) {
 		
-		int result = 1;
-		
 		  /*
-		PLEASE INSERT YOUR CODE STRICTLY BETWEEN BELOW COMMENTED LINES
-		YOUR CODE STARTS HERE
-		YOUR CODE ENDS HERE
-		AS TEST CASES ARE EXECUTED USING AUTOMATION TECHNIQUE, REQUEST TO
-		STRICTLY FOLLOW BELOW MENTIONED RULES
-			1. THE REST OF THE CODE PROVIDED TO YOU SHOULD BE KEPT STRICTLY UNTOUCHED.
-			2. YOUR OWN CODE WOULD COME ONLY INSIDE ABOVE-MENTIONED PAIR OF COMMENTS.
-			3. THE CLASS NAMES, INTERFACE NAMES, METHOD SIGNATURES AND ATTRIBUTE NAMES SHOULD
-   				NOT BE ALTERED OR MODIFIED AND KEPT STRICTLY UNTOUCHED.
-			4. PLEASE FOLLOW STANDARD JAVA NAMING CONVENTIONS FOR THE PIECE OF CODE YOU
-   				ARE GOING TO PROVIDE INSIDE THE BELOW-MENTIONED PAIR OF COMMENTS.
+		  Use this method to calculate the factorial of the number input by the user.
+		  
+		  - All code should be inside the placeholders below.
 		*/
-		
+		 
+		int result = 1;
 		//YOUR CODE STARTS HERE
 
  
@@ -80,6 +67,9 @@ public class Factorial {
 	 }
 	 
 	 public void calculateFactorial() {
+		 /*
+		 Do not change this method.
+		 */
 		 	
 		 int input = this.isInputNumberValid();
 		 if(input != -1)
@@ -90,9 +80,12 @@ public class Factorial {
 	 }
 	
 
-	 public static void main(String[] args) {  
+	 public static void main(String[] args) { 
+		/*
+		 Do not change this method.
+		 */
 		Factorial fact = new Factorial(System.in,System.out);
-		System.out.println("Enter any number between 1 and 10, both inclusive");
+		System.out.println("Enter an integer between 1 and 10, inclusive");
 		fact.calculateFactorial();	
 	 }
 
