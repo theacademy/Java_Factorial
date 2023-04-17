@@ -1,4 +1,4 @@
-# Java Assessment: Factorial Calculator
+# Java Assignment: Factorial Calculator
 
 ## Problem Statement
 For this assessment, you will write a Java program that calculates and prints the factorial for a number input by the user.
