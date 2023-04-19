@@ -4,11 +4,6 @@ import java.io.InputStream;
 import java.io.PrintStream;
 import java.util.Scanner;
 
-package com.wiley.assignment1;
-
-import java.io.InputStream;
-import java.io.PrintStream;
-import java.util.Scanner;
 
 public class Factorial {
 	
