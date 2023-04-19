@@ -40,7 +40,7 @@ public class Factorial {
 
 		//YOUR CODE STARTS HERE
 
-		return -1
+		return -1;
 
 		//YOUR CODE ENDS HERE
 		 
