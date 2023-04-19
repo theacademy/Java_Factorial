@@ -1,7 +1,7 @@
 # Java Assignment: Factorial Calculator
 
 ## Problem Statement
-For this assessment, you will write a Java program that calculates and prints the factorial for a number input by the user.
+For this assignment, you will write a Java program that calculates and prints the factorial for a number input by the user.
 
 The factorial of a positive integer `num` is the product of all numbers in the range from 1 to `num`.
 
@@ -45,7 +45,7 @@ Update the existing `private void calculateFactorial` method to calculate and ou
 
 ### Step 2: Access GitHub Classroom and the Repository
 
-1. Your instructor will provide a link for the assessment in GitHub Classroom.
+1. Your instructor will provide a link for the assignment in GitHub Classroom.
 2. Open the link and authorize access using your GitHub account.
 3. Clone the repository to a local folder.
    - Instructions for working with GitHub repositories are provided in the Git and GitHub section of the course.
@@ -88,5 +88,5 @@ All new code should be added **inside** these placeholders.
 4. If any test fails, return to the local code to make corrections or add more code, then recommit the changes.
 5. When the code passes all tests, commit one more time, labeling the last commit as "final commit."
    - You may need to make a minor edit to the code, such as adding a comment, so that Git knows the code is different.
-6. Copy the URL for the GitHub repository and submit it to the assessment page in Engage.
+6. Copy the URL for the GitHub repository and submit it to the assignment page in Engage.
 7. Your instructor may also ask you to submit a pull request on the repository.
