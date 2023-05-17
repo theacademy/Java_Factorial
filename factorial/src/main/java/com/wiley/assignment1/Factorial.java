@@ -80,7 +80,7 @@ public class Factorial {
 		 Do not change this method.
 		 */
 		Factorial fact = new Factorial(System.in,System.out);
-		System.out.println("Enter an integer between 1 and 10, inclusive");
+		System.out.println("Enter an integer between 1 and 10, inclusive.");
 		fact.calculateFactorial();	
 	 }
 
