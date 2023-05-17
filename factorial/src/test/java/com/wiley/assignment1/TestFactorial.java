@@ -110,10 +110,10 @@ public class TestFactorial {
 		//testGetTheInputNumber();
 	    fact.calculateFactorial();
 	    String outputText = byteArrayOutputStream.toString();
-	    String key = "Please Enter valid Input as number between 1 and 10 only, both inclusive";
+	    String key = "Invalid entry. Please enter an integer between 1 and 10, inclusive.";
 	    String output = outputText.substring(outputText.indexOf(key));
 	    //Assertions.assertEquals("720",output);
-	    Assertions.assertEquals("Please Enter valid Input as number between 1 and 10 only, both inclusive",output);
+	    Assertions.assertEquals("Invalid entry. Please enter an integer between 1 and 10, inclusive.",output);
 		
 	}
 	
@@ -129,10 +129,10 @@ public class TestFactorial {
 		//testGetTheInputNumber();
 	    fact.calculateFactorial();
 	    String outputText = byteArrayOutputStream.toString();
-	    String key = "Please Enter valid Input as number between 1 and 10 only, both inclusive";
+	    String key = "Invalid entry. Please enter an integer between 1 and 10, inclusive.";
 	    String output = outputText.substring(outputText.indexOf(key));
 	    //Assertions.assertEquals("720",output);
-	    Assertions.assertEquals("Please Enter valid Input as number between 1 and 10 only, both inclusive",output);
+	    Assertions.assertEquals("Invalid entry. Please enter an integer between 1 and 10, inclusive.",output);
 		
 	}
 
@@ -147,10 +147,10 @@ public class TestFactorial {
 	    fact.calculateFactorial();
 	    String outputText = byteArrayOutputStream.toString();
 	    //System.out.println("outputtext: " + outputText);
-	    String key = "Please Enter valid Input as number between 1 and 10 only, both inclusive";
+	    String key = "Invalid entry. Please enter an integer between 1 and 10, inclusive.";
 	    String output = outputText.substring(outputText.indexOf(key));
 	    //System.out.println("output: " + output);
-	    Assertions.assertEquals("Please Enter valid Input as number between 1 and 10 only, both inclusive",output);
+	    Assertions.assertEquals("Invalid entry. Please enter an integer between 1 and 10, inclusive.",output);
 		
 	}
 	
