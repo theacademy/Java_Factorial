@@ -1,23 +1,13 @@
 package com.org.assignment1;
 
-import java.io.InputStream;
-import java.io.PrintStream;
 import java.util.Scanner;
 
-
 public class Factorial {
-	
-	 private Scanner scanner;
-	 private PrintStream printStream;
-	 private int num;
-	 
 
-	 public Factorial(InputStream inputStream, PrintStream printStream) {
-	      this.scanner = new Scanner(inputStream);
-	      this.printStream = printStream;
-	 }
-	 
-	 public int isInputNumberValid()  {
+	private final Scanner scanner = new Scanner(System.in);
+	private int num;
+
+	public int isInputNumberValid() {
 		if (this.scanner.hasNextInt()) {
 			this.num = this.scanner.nextInt();
 			if (this.num >= 1 && this.num <= 10) {
@@ -27,44 +17,29 @@ public class Factorial {
 			this.scanner.next();
 		}
 
-		this.printStream.println(
+		System.out.println(
 				"Invalid entry. Please enter an integer between 1 and 10, inclusive.");
 		return -1;
-	 }
-	
-	 
-	 private void calculateFactorial(int num) {
-		
+	}
+
+	private void calculateFactorial(int number) {
 		int result = 1;
-		for (int factor = 2; factor <= num; factor++) {
+		for (int factor = 2; factor <= number; factor++) {
 			result *= factor;
 		}
-		this.printStream.println("The Factorial is: " + result);
-		
-	 }
-	 
-	 public void calculateFactorial() {
-		 /*
-		 Do not change this method.
-		 */
-		 	
-		 int input = this.isInputNumberValid();
-		 if(input != -1)
-		 {
-			 calculateFactorial(input);
-		 }
-		 
-	 }
-	
+		System.out.println("The Factorial is: " + result);
+	}
 
-	 public static void main(String[] args) { 
-		/*
-		 Do not change this method.
-		 */
-		Factorial fact = new Factorial(System.in,System.out);
+	public void calculateFactorial() {
+		int input = this.isInputNumberValid();
+		if (input != -1) {
+			this.calculateFactorial(input);
+		}
+	}
+
+	public static void main(String[] args) {
+		Factorial factorial = new Factorial();
 		System.out.println("Enter an integer between 1 and 10, inclusive.");
-		fact.calculateFactorial();	
-	 }
-
-	
+		factorial.calculateFactorial();
+	}
 }
