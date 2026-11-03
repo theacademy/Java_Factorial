@@ -1,4 +1,4 @@
-package com.wiley.assignment1;
+package com.org.assignment1;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
