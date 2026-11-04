@@ -20,30 +20,14 @@ For example: `Factorial(4) = 1 * 2 * 3 * 4`, which gives the result of 24.
 
 ## Instructions
 
-Update only the existing **Factorial.java** class in the starter code provided. Do not change the code in any other file provided.
+Update only the existing **Main.java** class in the starter code provided.   
+Do not change the code in any other file provided.
 
-- For prompts and other output to the console, use `this.printStream.print()` and NOT `System.out.println()`.
-
-Update the existing `isInputNumberValid` method to accept a number from the user and test whether the number is valid.
-
-- Write code to accept a number from the user and store the value in an instance variable `num`. 
-
-  - Use an instance variable `scanner` to accept the input from the user.
-- If the input value is valid, return the number input by the user (NOT the factorial of the number).
-- In case of invalid input, print the following message to the console:
-  - "Invalid entry. Please enter an integer between 1 and 10, inclusive."
-  - Return -1
-
-Update the existing `private void calculateFactorial` method to calculate and output the factorial of the number input by the user.
+Update the existing `factorial` method to accept a number from the user, test whether the number is valid, 
+and return factorial of the number input by the user if valid. If the input is invalid, print an error message 
+to the console.
 
 ## Steps to Solve the Problem
-
-### Step 1: Verify the Setup Requirements
-
-* Java version 11 installed with the JAVA_HOME path variable
-* An IDE with required plugins for Java 
-* Git
-* A GitHub account
 
 ### Step 2: Access GitHub Classroom and the Repository
 
