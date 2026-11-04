@@ -1,3 +1,4 @@
+### Assignment Status: ![](https://github.com/theacademy/Java_Factorial/actions/workflows/factorial.yaml/badge.svg?branch=main)
 ### Assignment Status: ![Build status](https://github.com/theacademy/Java-Easy-Method-Exercises/actions/workflows/maven.yml/badge.svg?branch=main)
 
 # Java Assignment: Factorial Calculator
