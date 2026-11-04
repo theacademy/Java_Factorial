@@ -1,5 +1,4 @@
-name: Java CI with Maven
-
+name: factorial
 on:
   push:
     branches: [ "main" ]
@@ -39,7 +38,7 @@ jobs:
           git config user.name "${{ github.actor }}"
       - name: Update README
         env:
-          BADGE_URL: "https://github.com/${{ github.repository }}/actions/workflows/maven.yaml/badge.svg?branch=main"
+          BADGE_URL: "https://github.com/${{ github.repository }}/actions/workflows/factorial.yaml/badge.svg?branch=main"
         run: |
           if ! grep -qF "$BADGE_URL" README.md; then
             sed -i "1i ### Assignment Status: ![](${BADGE_URL})" README.md
