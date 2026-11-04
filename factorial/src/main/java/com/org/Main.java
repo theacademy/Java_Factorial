@@ -27,14 +27,10 @@ public class Main {
     }
 
     public static long factorial(int number) {
-        if (number < 1 || number > 10) {
-            throw new IllegalArgumentException("Number must be between 1 and 10.");
-        }
+        // START YOUR CODE HERE
 
-        long result = 1;
-        for (int current = 2; current <= number; current++) {
-            result *= current;
-        }
-        return result;
+           return -1;
+
+        // END YOUR CODE HERE
     }
 }
